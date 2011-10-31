@@ -30,7 +30,7 @@ class InlineBackendConfig(SingletonConfigurable):
     # make that fit.  This is configurable via Global.pylab_inline_rc,
     # or rather it will be once the zmq kernel is hooked up to
     # the config system.
-    rc = Dict({'figure.figsize': (6.0,4.0),
+    rc = Dict({'figure.figsize': (12.0,8.0),
         # 12pt labels get cutoff on 6x4 logplots, so use 10pt.
         'font.size': 10,
         # 10pt still needs a little more room on the xlabel:
